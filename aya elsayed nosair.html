@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <h2>Hello, world!</h2>
+    <!-- spinner  -->
+    <!-- spinner border -->
+    <div class="spinner-border spinner-border-sm text-info "></div>
+    <div class="spinner-border text-primary"></div>
+    <!-- spinner grow -->
+    <div class="spinner-grow spinner-grow-sm text-info "></div>
+    <div class="spinner-grow text-primary"></div>.
+    <!-- Spinner Buttons -->
+    <button class="btn btn-primary" type="button">
+        <div class="spinner-border"></div>
+        loading..
+    </button>
+    <button class="btn btn-primary" type="button">
+        <div class="spinner-border spinner-border-sm"></div>
+        loading..
+    </button>
+    <button class="btn btn-primary" type="button">
+        <div class="spinner-grow spinner-grow-sm"></div>
+        loading..
+    </button>
+    <!-- button disabled -->
+    <button class="btn btn-primary disabled">
+        <div class=" spinner-border spinner-border-sm"></div>
+        loading...
+    </button>
+    <br>
+    <!-- Pagination -->
+    <!-- Basic Pagination Alignment-->
+    <ul class="pagination" style="margin: 10px 3px;">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+
+    </ul>
+    <!-- Active State Alignment -->
+    <ul class="pagination justify-content-center" style="margin: 10px 0px;">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item active"><a class="page-link" href="https://translate.google.com/?hl=ar">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+    <!-- Disabled State Pagination Sizing Alignment -->
+    <ul class="pagination pagination-sm justify-content-end " style="margin: 10px 5px;">
+        <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item "><a class="page-link" href="https://translate.google.com/?hl=ar">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+    <!-- Breadcrumbs -->
+    <ul class="breadcrumb ">
+        <li class="breadcrumb-item "><a href="#">Summer 2017</a></li>
+        <li class="breadcrumb-item "><a href="https://translate.google.com/?hl=ar">Photos</a></li>
+        <li class="breadcrumb-item"><a href="#">Italy</a></li>
+        <li class="breadcrumb-item active">Rome</li>
+
+    </ul>
+    <!-- List Groups  -->
+    <!-- Basic List Groups -->
+    <ul class="list-group">
+        <li class="list-group-item">one</li>
+        <li class="list-group-item">two</li>
+        <li class="list-group-item">three</li>
+        <li class="list-group-item">four</li>
+    </ul>
+    <br>
+    <!-- List Groups-active -->
+    <ul class="list-group" style="margin-left: 5px; ">
+        <li class="list-group-item active">one</li>
+        <li class="list-group-item">two</li>
+        <li class="list-group-item">three</li>
+        <li class="list-group-item">four</li>
+    </ul>
+    <!-- List Group With Linked Items  -->
+    <br>
+    <div class="list-group" style="margin-left: 5px;">
+        <a class="list-group-item  list-group-item-action" href="#">one</a>
+        <a class="list-group-item  list-group-item-action" href="#">two</a>
+        <a class="list-group-item  list-group-item-action" href="#">three</a>
+    </div>
+    <br>
+    <!-- List Group With Linked Items disabled list-group-flush -->
+    <div class="list-group list-group-flush " style="margin-left: 5px;">
+        <a class="list-group-item disabled" href="#">Disabled one</a>
+        <a class="list-group-item disabled " href="#">Disabled two</a>
+        <a class="list-group-item " href="#">three</a>
+    </div>
+    <!-- Numbered List Groups -->
+    <br>
+    <ol class="list-group list-group-numbered" style="margin-left: 5px; ">
+        <li class="list-group-item ">one</li>
+        <li class="list-group-item">two</li>
+        <li class="list-group-item">three</li>
+        <li class="list-group-item">four</li>
+    </ol>
+    <br>
+    <!-- Horizontal List Groups -->
+    <ul class="list-group list-group-horizontal " style="margin-left: 5px; ">
+        <li class="list-group-item ">one</li>
+        <li class="list-group-item">two</li>
+        <li class="list-group-item">three</li>
+        <li class="list-group-item">four</li>
+    </ul>
+    <!-- Contextual Classes -->
+    <ul class="list-group  " style="margin-left: 5px; ">
+        <li class="list-group-item list-group-item-success ">one</li>
+        <li class="list-group-item list-group-item-info">two</li>
+        <li class="list-group-item list-group-item-primary">three</li>
+        <li class="list-group-item list-group-item-danger">four</li>
+    </ul>
+    <!-- Link items with Contextual Classes -->
+    <br>
+    <div class="list-group">
+        <a class="list-group-item list-group-item-action list-group-item-success">one</a>
+        <a class="list-group-item list-group-item-action list-group-item-info">two</a>
+        <a class="list-group-item list-group-item-action list-group-item-primary">three</a>
+    </div>
+    <br>
+    <ul class="list-group  " style="margin-left: 5px; ">
+        <li class="list-group-item d-flex justify-content-between align item-center ">one
+            <span class="badge bg-primary rounded-pill ">14</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align item-center">two
+            <span class="badge bg-primary rounded-pill">12</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align item-center">three
+            <span class="badge bg-primary rounded-pill">13</span>
+        </li>
+    </ul>
+    <br>
+    Cards
+    <!-- Basic Card -->
+    <div class="card">
+        <div class="card-body">helo</div>
+
+    </div>
+    <!-- Header and Footer,Contextual Cards  -->
+    <div class="card">
+        <div class="card-header bg-primary text-white">header</div>
+        <div class="card-body bg-info text-white">Content</div>
+        <div class="card-footer bg-success text-white">header</div>
+    </div>
+    <!-- Titles, text, and links -->
+    <br>
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-titel">hello</h4>
+            <p class="card-text">wellcom to my padge</p>
+            <a href="#" class="card-link">padge-link </a>
+        </div>
+
+    </div>
+
+    Card Images
+    <div class="card" style="width: 300px;margin-left: 10px;">
+        <div class="card-header"> <img src="download.jpg" class="card-img-top"></div>
+        <div class="card-body">
+            <h4 class="card-titel">Jane Doe </h4>
+            <p class="card-text"> Some example text some example text. Jane Doe is an architect and engineer
+            </p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+    </div>
+    <br>
+    <!-- Card Image Overlays -->
+    <div class="card" style="width: 300px;margin-left: 10px;">
+        <div class="card-header"> <img src="download.jpg" class="card-img-top"></div>
+        <div class="card-img-overlay">
+            <h4 class="card-titel">Jane Doe </h4>
+            <p class="card-text"> Some example text some example text. Jane Doe is an architect and engineer
+            </p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+    </div>
+    <!-- Basic Collapsible -->
+    <button data-bs-toggle="collapse" data-bs-target="#one" type="button" class="btn btn-primary">click
+        me</button>
+    <div id="one" class="collapse ">post Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nihil
+        quisquam suscipit voluptatibus eveniet itaque placeat, amet esse praesentium provident autem quas
+        assumenda. Maiores optio consectetur a culpa odio quia.</div>
+    <br>
+    <a href="#one" data-bs-toggle="collapse">click me</a>
+    <div id="one" class="collapse ">post Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+        corporis
+        maxime fugiat qui facere labore, voluptas perferendis dolorem iure quam, nihil temporibus quod
+        repudiandae tempore ad doloribus maiores mollitia officia.</div>
+    <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Simple
+        collapsible</button>
+    <div id="demo" class="collapse show">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </div>
+    Accordion
+    <div id="Accordion">
+        <div class="card">
+            <div class="card-header"></div>
+            <a href="#one" data-bs-toggle="collapse" class="btn"> Collapsible Group Item #1</a>
+
+        </div>
+        <div id="one" class="collapse show" data-bs-parent="#Accordion">
+            <div class="card-body">post Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+                tempore a modi ratione perferendis dolor, fugit sapiente distinctio recusandae ullam illo
+                commodi molestias blanditiis vel, iste suscipit ab! Earum, omnis.</div>
+        </div>
+        <div class="card">
+            <div class="card-header"></div>
+            <a href="#two" data-bs-toggle="collapse" class="btn"> Collapsible Group Item #2</a>
+
+        </div>
+        <div id="two" class="collapse show" data-bs-parent="#Accordion">
+            <div class="card-body">post Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+                tempore a modi ratione perferendis dolor, fugit sapiente distinctio recusandae ullam illo
+                commodi molestias blanditiis vel, iste suscipit ab! Earum, omnis.</div>
+        </div>
+        <div class="card">
+            <div class="card-header"></div>
+            <a href="#three" data-bs-toggle="collapse" class="btn"> Collapsible Group Item #3</a>
+
+        </div>
+        <div id="three" class="collapse " data-bs-parent="#Accordion">
+            <div class="card-body">post Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+                tempore a modi ratione perferendis dolor, fugit sapiente distinctio recusandae ullam illo
+                commodi molestias blanditiis vel, iste suscipit ab! Earum, omnis.</div>
+        </div>
+
+    </div>
+    <br>
+    <!-- Nav Menus -->
+    <div>
+        <ul class="nav">
+            <li class="nav-item">
+                <a href="#" class="nav-link">link 1</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">link 2</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link disabled">link 2</a>
+            </li>
+        </ul>
+    </div>
+    <!-- Aligned Nav -->
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a href="#" class="nav-link">link 1</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">link 2</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link disabled">link 2</a>
+        </li>
+    </ul>
+    <!-- Vertical Nav -->
+    <ul class="nav flex-column">
+        <li class="nav-item">
+            <a href="#" class="nav-link">link 1</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">link 2</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link disabled">link 2</a>
+        </li>
+    </ul>
+    <!-- Tabs -->
+    <ul class="nav nav-tabs nav-justified " style="width: 500px;">
+        <li class="nav-item">
+            <a href="#" class="nav-link active">link 1</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">link 2</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link disabled">link 2</a>
+        </li>
+    </ul>
+    <!-- Pills -->
+    <ul class="nav nav-pills nav-justified" style="width: 500px;">
+        <li class="nav-item">
+            <a href="#" class="nav-link active">link 1</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">link 2</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link disabled">link 2</a>
+        </li>
+    </ul>
+    <!-- Pills with Dropdown -->
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Dropdown</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Link 1</a></li>
+                <li><a class="dropdown-item" href="#">Link 2</a></li>
+                <li><a class="dropdown-item" href="#">Link 3</a></li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+    </ul>
+    <!-- Tabs with Dropdown -->
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Dropdown</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Link 1</a></li>
+                <li><a class="dropdown-item" href="#">Link 2</a></li>
+                <li><a class="dropdown-item" href="#">Link 3</a></li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+    </ul>
+    <br>
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="la.jpg" alt="Los Angeles" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="chicago.jpg" alt="Chicago" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="ny.jpg" alt="New York" class="d-block w-100">
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <!-- Basic Navbar -->
+    <nav class="navbar navbar-expand-sm bg-light">
+
+        <div class="container-fluid">
+            <!-- Links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 3</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+    <!-- Vertical Navbar -->
+    <nav class="navbar bg-light">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 3</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Colored Navbar -->
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark ">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Brand / Logo -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="download.jpg" alt="Logo" style="width:40px;" class="rounded-pill">
+            </a>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
